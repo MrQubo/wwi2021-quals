@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from sys import stdin, stderr
+from sys import stdin
 
 
 class Foo:
