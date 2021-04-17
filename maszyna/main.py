@@ -41,3 +41,5 @@ for line in stdin:
         if 'wwi2021-depyton' in o:
             o = 'REDACTED'
         print(o, flush=True)
+    else:
+        assert False, f'Invalid cmd {repr(cmd)}.'
