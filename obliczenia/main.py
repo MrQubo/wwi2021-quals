@@ -10,7 +10,7 @@ RANGE = 128
 for _ in range(REPEATS):
     a, b = randrange(RANGE), randrange(RANGE)
     print(f'{a} + {b}', flush=True)
-    line = stdin.readline().removesuffix('\n')
+    line = stdin.readline().strip()
     c = int(line, 10)
     if a + b != c:
         print('nope')

@@ -11,7 +11,7 @@ stack = []
 stack.append(Foo)
 
 for line in stdin:
-    line = line.removesuffix('\n')
+    line = line.rstrip()
     cmd, *args = line.split(' ')
     if cmd == 'push':
         o = args[0]

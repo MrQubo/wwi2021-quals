@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- python3.9
+- python (3.8 lub 3.9)
 - socat
 
 ## Starting the server
