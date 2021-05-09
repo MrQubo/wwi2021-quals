@@ -29,22 +29,29 @@ rozwiązania: dowolna.
 
 # Zadanie "obliczenia" [2 pkt.]
 
+`nc 13.48.252.167 1337`
+
 https://github.com/MrQubo/wwi2021-quals/tree/master/obliczenia
 
-Za biedny jestem na hosting, więc serwer musisz sobie postawić lokalnie. Możesz
-w tym celu skorzystać ze skryptu `setup.sh`. Powinno działać pod WSL, jak będzie
-jakiś problem to proszę o kontakt.
+Pod podanym adresem na githubie znajduje się kod źródłowy serwera uruchomionego
+pod adresem `13.48.252.167` na porcie `1337`.
+
+Serwer możesz również uruchomić lokalnie korzystając ze skryptu `setup.sh`.
+Lokalnie uruchomiony serwer znajdował się będzie pod adresem `localhost`,
+również na porcie `1337`. Komendą `nc localhost 1337` można połączyć się z
+serwerem, żeby przetestować czy się serwer działa, jeśli będzie jakiś problem z
+odpaleniem serwera to proszę o kontakt.
 
 Twoim zadaniem jest napisanie skryptu, który zdobędzie flagę (czyli zawartość
-pliku `flag.txt`).  Oczywiście nie możesz przeczytać sobie tej flagi z pliku, po
-prostu udawaj, że tego pliku tam nie ma. :P Chodzi o to, abyś połączył się z
-serwerem (pod adresem `localhost:1337`) i wszedł z nim w interakcję, przy pomocy
+pliku `flag.txt`). Oczywiście nie możesz przeczytać sobie tej flagi z pliku,
+wersja na serwerze ma inną flagę niż to co jest na githubie. :P W zadaniu chodzi
+o to, abyś połączył się z serwerem i wszedł z nim w interakcję, przy pomocy
 napisanego przez ciebie skryptu. Jako rozwiązanie wyślij skrypt **w pythonie
 3**, możesz skorzystać z dowolnych, darmowych i otwartoźródłowych, bibliotek.
 
-**Uwaga**: Pliki serwera możesz modyfikować, aby pomóc sobie w klepaniu
-rozwiązania. Pamiętaj jednak, że rozwiązanie, które wyślesz, ma działać z
-oryginalnymi plikami serwera.
+**Uwaga**: Pliki serwera uruchomionego lokalnie możesz modyfikować, aby pomóc
+sobie w klepaniu rozwiązania. Pamiętaj jednak, że ostatecznie rozwiązanie ma
+działać z serwerem pod adresem `13.48.252.167`, a nie tym uruchomionym lokalnie.
 
 **Hint**: Do komunikacji z serwerem możesz użyć np.
 [`socket`](https://docs.python.org/3/library/socket.html#example) bądź
@@ -54,6 +61,8 @@ oryginalnymi plikami serwera.
 
 # Zadanie "bajtsy" [2 pkt.]
 
+`nc 13.48.252.167 1338`
+
 https://github.com/MrQubo/wwi2021-quals/tree/master/bajtsy
 
 Cel i opis zadania jest taki sam jak w poprzednim zadaniu. Zmieniłem za to numer
@@ -62,6 +71,8 @@ portu na `:1338`.
 
 # Zadanie "maszyna" [6 pkt.]
 
+`nc 13.48.252.167 1339`
+
 https://github.com/MrQubo/wwi2021-quals/tree/master/maszyna
 
 **Uwaga**: W swoim rozwiązaniu nie zakładaj, że znasz długość flagi. Rozwiązanie
@@ -69,6 +80,8 @@ powinno działać dla flagi dowolnej długości.
 
 
 # Zadanie z * "maszyna2" [5 pkt.]
+
+`nc 13.48.252.167 1340`
 
 https://github.com/MrQubo/wwi2021-quals/tree/master/maszyna2
 
