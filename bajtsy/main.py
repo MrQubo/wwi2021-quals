@@ -4,7 +4,7 @@ from random import randrange
 from sys import stdin, stdout
 
 
-REPEATS = 1000
+REPEATS = 128
 RANGE = 128
 
 for _ in range(REPEATS):
