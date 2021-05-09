@@ -51,7 +51,7 @@ napisanego przez ciebie skryptu. Jako rozwiązanie wyślij skrypt **w pythonie
 
 **Uwaga**: Pliki serwera uruchomionego lokalnie możesz modyfikować, aby pomóc
 sobie w klepaniu rozwiązania. Pamiętaj jednak, że ostatecznie rozwiązanie ma
-działać z serwerem pod adresem `13.48.252.167`, a nie tym uruchomionym lokalnie.
+działać z oryginalnymi plikami serwera.
 
 **Hint**: Do komunikacji z serwerem możesz użyć np.
 [`socket`](https://docs.python.org/3/library/socket.html#example) bądź
