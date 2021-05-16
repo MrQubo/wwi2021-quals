@@ -8,7 +8,7 @@ Rozwiązania powinieneś wysłać poprzez aplikację warsztatów
 Możesz je wrzucić jako osobne pliki, albo spakowane w archiwum, nie ma
 znaczenia. Proszę jednak, abyś pliki tekstowe zapisał w kodowaniu UTF-8.
 
-**Termin**: 15 maja
+**Termin**: 19 maja
 
 
 # Zadanie "hello world" [0 pkt.]
